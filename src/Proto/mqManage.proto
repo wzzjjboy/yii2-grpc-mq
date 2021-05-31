@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package mqManage;
+
+service MqManage {
+  rpc publish(PublishRequest) returns(PublishResponse);
+  rpc consume(ConsumeRequest) returns(ConsumeResponse);
+}
+
+
+message PublishRequest {
+  string appName = 1;
+  string taskName = 2;
+  map<string, string> taskData = 3;
+}
+
+message PublishResponse {
+  int64 code = 1;
+  string msg = 2;
+}
+
+message ConsumeRequest {
+  string appName = 1;
+  string taskName = 2;
+  map<string, string> taskData = 3;
+}
+
+message ConsumeResponse {
+  int64 code = 1;
+  string msg = 2;
+}
