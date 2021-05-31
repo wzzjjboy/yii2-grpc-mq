@@ -1,5 +1,5 @@
 {
-  "name": "alan/yii2-grpc",
+  "name": "alan/yii2-grpc-mq",
   "description": "yii2 framwork use message queue with grpc(swoole)",
   "type": "library",
   "authors": [
