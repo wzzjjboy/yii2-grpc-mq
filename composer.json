@@ -9,6 +9,7 @@
       "email": "alan.wang@wetax.com.cn"
     }
   ],
+  "license": "MIT",
   "require": {
     "yiisoft/yii2": "~2.0.22",
     "yiisoft/yii2-redis": "^2.0",
