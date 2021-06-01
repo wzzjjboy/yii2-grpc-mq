@@ -13,7 +13,7 @@
   "require": {
     "yiisoft/yii2": "~2.0.22",
     "yiisoft/yii2-redis": "^2.0",
-    "swoole/grpc":"dev-master",
+    "swoole/grpc": "^1.0",
     "ext-json": "*",
     "ext-swoole":"*",
     "ext-pcntl": "*"
