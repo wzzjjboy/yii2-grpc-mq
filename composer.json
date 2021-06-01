@@ -2,14 +2,19 @@
   "name": "alan/yii2-grpc-mq",
   "description": "yii2 framwork use message queue with grpc(swoole)",
   "type": "library",
-  "version": "1.0.4",
+  "keywords": [
+    "php",
+    "yii2",
+    "rabbitmq",
+    "grpc"
+  ],
   "authors": [
     {
       "name": "alan",
       "email": "alan.wang@wetax.com.cn"
     }
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "require": {
     "yiisoft/yii2": "~2.0.22",
     "yiisoft/yii2-redis": "^2.0",
